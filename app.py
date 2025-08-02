@@ -21,4 +21,4 @@ if st.button("Predict Sprinklers"):
 
     st.markdown("### Prediction:")
     for i, status in enumerate(prediction):
-     st.write(f"Sprinkler {i} (parcel_{i}): {'🟢 ON' if status == 1 else '🔴 OFF'}")
+         st.write(f"Sprinkler {i} (parcel_{i}): {'🟢 ON' if status == 1 else '🔴 OFF'}")
